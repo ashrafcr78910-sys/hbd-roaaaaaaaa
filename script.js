@@ -21,7 +21,7 @@ function checkPassword(){
 
         launchConfetti();
     } else {
-        alert("الباسورد غلط 😭");
+        alert("الباسورد غلطط 😭");
     }
 }
 
