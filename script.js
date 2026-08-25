@@ -12,7 +12,7 @@ bgLaugh.volume = 0.04;
 
 /* الباسورد الجديد */
 function checkPassword(){
-    if(passwordInput.value === "1982005"){
+    if(passwordInput.value === "2682005"){
         passwordScreen.style.display = "none";
         mainContent.style.display = "block";
 
