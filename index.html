@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Rawaa 💖</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شاشة الباسورد -->
+    <div class="password-screen" id="passwordScreen">
+
+        <h1>🎀 رسالة خاصة لـ رؤى 🎀</h1>
+
+        <input type="password" id="passwordInput" placeholder="اكتبي الباسورد">
+
+        <button onclick="checkPassword()">دخول 💕</button>
+
+    </div>
+
+
+    <!-- المحتوى الرئيسي -->
+    <div class="main-content" id="mainContent">
+
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <h1 class="title">Happy Birthday Rawaa 💖</h1>
+
+            <p class="message">
+                كل سنة وانتي طيبة يا رؤى 🎀💕<br>
+                وجودك أقرب وأغلى حاجة ليا، وبيخلي كل يوم ألطف وأحلى ✨<br>
+                ضحكتك وطريقتك بيخففوا الدنيا بجد 🌸<br>
+                أتمنى تفضلي دايمًا مبسوطة وتحققي كل اللي نفسك فيه ❤️
+            </p>
+
+
+            <!-- الصور -->
+            <div class="gallery">
+
+                <img src="photo1.jpg" class="photo">
+                <img src="photo2.jpg" class="photo">
+                <img src="photo3.jpg" class="photo">
+                <img src="photo4.jpg" class="photo">
+                <img src="photo5.jpg" class="photo">
+
+            </div>
+
+
+            <div class="love-box">
+
+                <h2>حاجات مميزة فيكي 💕</h2>
+
+                <p id="changingText">ضحكتك 🎀</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- الأغنية بصيغة m4a -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="song.m4a" type="audio/mp4">
+    </audio>
+
+
+    <!-- الضحكة -->
+    <audio id="bgLaugh" loop>
+        <source src="laugh.mp3" type="audio/mp3">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
